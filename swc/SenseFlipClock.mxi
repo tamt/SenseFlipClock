@@ -1,0 +1,24 @@
+﻿<macromedia-extension name="SenseFlipClock" version="1.0.0"
+	type="Flash Component">
+	<author name="www.itamt.org" />
+	<products>
+		<product name="Flash" version="9" primary="true" />
+	</products>
+	<description>
+	<![CDATA[
+	Window > Components > SenseFlipClock
+	]]>
+	</description>
+	<ui-access>
+	<![CDATA[
+	Window > Components > SenseFlipClock
+	]]>
+	</ui-access>
+	<license-agreement>
+	<![CDATA[
+	]]>
+	</license-agreement>
+	<files>
+		<file source="SenseFlipClock.swc" destination="$flash/Components/" />
+	</files>
+</macromedia-extension>
