@@ -6,7 +6,34 @@
 	</products>
 	<description>
 	<![CDATA[
-	Window > Components > SenseFlipClock
+Overview
+
+SenseFlipClock is a Flash Component to make clock like htc Sense UI in Flash. It’s very easy to use.
+Usage
+
+Just drag SenseFlipClock from “Components” panel (Window – Components), and drop it on Stage. If you want make display full time, you need drag three SenseFlipClock components to Stage, and config their “flipOn” parameter, one for “hour”, one for “minute”, and one for “second”.
+
+Component Parameters
+
+For config SenseFlipClock component parameters, open “Component Inspector” panel. (Window – Component Inspector)
+Component parameters:
+l         bgColor          background color
+l         darken            whether make flip paper darken or not
+l         duration         how many frames the flip transition will keep
+l         flipOn            internal time for flip to next value
+l         skin               Class name of Skin, use for custom skin
+l         textColor        time text color
+You can config more parameters through AS 3. like: SenseFlipClock.value, SenseFlipClock.interval.
+
+Custom Clock Skin
+
+For custom clock skin, you need create a clock skin MovieClip first, and specify a linkage Class name.
+Remind in clock skin MovieClip, there must be a TextField(dynamic).
+And then specify it a linkage Class name, for example:CustomClockSkin
+Now, we have a clock skin MovieClip class, whoes class name is:CustomClockSkin
+Back to the three SenseFlipClock components. Select the last one, then open “Component Inspector” panel. Set “skin” parameter with value:CustomClockSkin.
+Remind that you can still change SenseFlipClock.bgColor and SenseFlipClock.textColor parameters.
+That’s all! Test Movie~
 	]]>
 	</description>
 	<ui-access>
